@@ -4,7 +4,31 @@ body {
   font-family: "Signika Negative" , sans-serif;
     background-color: #a7ebeb;
 }
+h1 {
+  color: #176d6d;
+}
 
+h2 {
+  color: #05969b;
+}
+
+h3 {
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+a:hover {
+  cursor:pointer;
+  text-decoration: underline;
+  color: blue;
+} 
+
+p {
+  color: #076669;
+}
 /* I'm Perush */
 .name {
   margin: 0 auto 0 auto;
