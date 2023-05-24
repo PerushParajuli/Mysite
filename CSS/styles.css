@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Signika Negative" , sans-serif;
+    background-color: #a7ebeb;
+}
+
+/* I'm Perush */
+.name {
+  margin: 0 auto 0 auto;
+  padding-top: 20px;
+  width: 20%;
+  font-size: 5.565rem;/* 100% = 16px = 1em    interm of percent = 562.5%*/
+  font-family: "Courgette", cursive;
+}
+
+/* I am a Data Sciece Aspirant --> H2*/
+.career {
+  font-size: 2.2rem;
+}
+
+/*  Contains the whole block */
+.container {
+  background-color: #e4f9f5;
+  border: solid black;
+}
+
+.Top-container {
+  background-color: #a7ebeb;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #a7ebeb
+}
+
+.bottom-container {
+  background-color: #a7ebeb
+}
+
+/* Clouds
+.cloud {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  left: 20%;
+  top: 30%;
+}
+
+.cloud_b {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  right: 5%;
+  bottom: 30%;
+}
+
+/*  Near Title */
+/* .cloud_c {
+  width: 8%;
+  height: auto;
+  position: absolute;
+  top: 2%;
+  left: 46%;
+} */
+
+/* Mountain */
+
+.mountain {
+  width: 100%;
+  height: auto;
+}
+
+/* The original copy of Mountain Picture */
+.copy {
+  text-align: center;
+  size: 90px;
+  text-decoration: none;
+}
+
+/* Here is supposed to be my picture */
+.Pic {
+  height: auto;
+  width: 20%;
+}
+
+.hr {
+  color: #a7ebeb;
+}
