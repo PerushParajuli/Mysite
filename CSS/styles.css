@@ -1,8 +1,10 @@
 body {
   margin: 0;
+  height: auto;
+  width: auto;
   text-align: center;
-  font-family: "Signika Negative" , sans-serif;
-    background-color: #a7ebeb;
+  font-family: "Signika Negative", sans-serif;
+  background-color: #a7ebeb;
 }
 h1 {
   color: #176d6d;
@@ -13,18 +15,24 @@ h2 {
 }
 
 h3 {
-  color: #11999E;
+  color: #11999e;
 }
 
 a {
-  color: #11999E;
+  color: #11999e;
   text-decoration: none;
+  font: "Courgette", cursive;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
 }
+
 a:hover {
-  cursor:pointer;
+  cursor: pointer;
   text-decoration: underline;
-  color: blue;
-} 
+  color: rgb(62, 62, 63);
+  font-size: 15px;
+}
 
 p {
   color: #076669;
@@ -34,19 +42,22 @@ p {
   margin: 0 auto 0 auto;
   padding-top: 20px;
   width: 20%;
-  font-size: 5.565rem;/* 100% = 16px = 1em    interm of percent = 562.5%*/
+  height: auto;
+  font-size: 5.555rem; /* 100% = 16px = 1em    interm of percent = 562.5%*/
   font-family: "Courgette", cursive;
 }
 
 /* I am a Data Sciece Aspirant --> H2*/
 .career {
   font-size: 2.2rem;
+  font-weight: normal;
+  line-height: 2;
+  height: auto;
 }
 
 /*  Contains the whole block */
 .container {
-  background-color: #e4f9f5;
-  border: solid black;
+  background-color: #a7ebeb;
 }
 
 .Top-container {
@@ -56,39 +67,13 @@ p {
 }
 
 .middle-container {
-  background-color: #a7ebeb
+  background-color: #a7ebeb;
 }
 
 .bottom-container {
-  background-color: #a7ebeb
+  padding: 20px 0 10px 0; 
+  margin-top: 20px;
 }
-
-/* Clouds
-.cloud {
-  width: 10%;
-  height: auto;
-  position: absolute;
-  left: 20%;
-  top: 30%;
-}
-
-.cloud_b {
-  width: 10%;
-  height: auto;
-  position: absolute;
-  right: 5%;
-  bottom: 30%;
-}
-
-/*  Near Title */
-/* .cloud_c {
-  width: 8%;
-  height: auto;
-  position: absolute;
-  top: 2%;
-  left: 46%;
-} */
-
 /* Mountain */
 
 .mountain {
@@ -109,6 +94,60 @@ p {
   width: 20%;
 }
 
-.hr {
-  color: #a7ebeb;
+hr {
+  width: 1.5rem;
+  border-style: dashed;
+  color: #176d6d;
+  margin: 0 auto 0 auto;
+}
+
+.skill-row {
+  width: 50%;
+  position: relative;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.mac {
+  /*Picture of what I can do*/
+  width: 35%;
+  float: left;
+  margin-right: 20px;
+}
+
+.scrollscreen {
+  width: 25%;
+  border-radius: 12.5%;
+  float: right;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.button-contact {
+  font-size: 14px;
+  font-family: Trebuchet MS;
+  width: 110px;
+  height: 34px;
+  margin-top: 20px;
+  border-width: 1px;
+  color: #fff;
+  border-color: rgba(173, 192, 255, 1);
+  font-weight: bold;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-shadow: 0px 1px 0px rgba(43, 60, 105, 1);
+  background: linear-gradient(rgba(75, 113, 185, 1), rgba(20, 71, 134, 1));
+}
+
+.button-contact:hover {
+  background: linear-gradient(rgba(20, 71, 134, 1), rgba(20, 71, 134, 1));
+  cursor: pointer;
+  width: 104px;
+  height: 37px;
+}
+
+.copy-right {
+  margin: 20px;
+  padding: 20px;
 }
